@@ -17,6 +17,7 @@ version in use in an Goerli authority node.
 # How to build and run
 ```
 $ git clone ....
+$ git submodule init && git submodule update
 $ cd parity-ethereum
 $ patch < ../patch-v2.4.0.patch -p 1
 $ cargo build --release --features=final
