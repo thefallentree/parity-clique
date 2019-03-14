@@ -1,13 +1,14 @@
 # parity-clique
 
-This is an out of tree maintained EIP225 (Clique Proof-of authority concensus engine) implementation for Parity. The engine implementation
-is mostly authorized by Yucong Sun, and there is some other changes pulled in from peoples noted in credits.
+This is an out of tree EIP225 (Clique Proof-of authority concensus engine) implementation for Parity. This implementation
+is mostly authorized by Yucong Sun, and there is some other changes pulled in from peoples noted in credits. It is also the software
+version in use in an Goerli authority node.
 
 # What is included:
 
 - [X] Sync & full block validation for clique based ethereum networks.
 - [X] Seal blocks and process votes according to EIP225 rules.
-- [X] built-in gensisis JSON files for easily connecting to Rinkeby, Goerli, and Kotti network.
+- [X] built-in genesis JSON files for easily connecting to Rinkeby, Goerli, and Kotti network.
 
 # TODO
 - [ ] JSON rpc for voting.
