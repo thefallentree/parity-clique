@@ -12,19 +12,23 @@ is mostly authorized by Yucong Sun, and there is some other changes pulled in fr
 # TODO
 - [ ] JSON rpc for voting.
 
-# How to build
+# How to build and run
 ```
 $ git clone ....
 $ cd parity-etherum
 $ patch < ../patch-v2.4.0.patch -p 1
 $ cargo build --release --features=final
+$ target/release/parity <your options>
 ```
 
+# How to run an local clique based ethereum network
+pending tutorial
+
 # What you can use it for
-- [X] connect to rinkeby network by ```./parity --rinkeby```
+- [X] connect to rinkeby network by ```./parity --chian rinkeby```
+- [X] connect to goerli and kottii network.
 - [X] Run an local Clique based ethereum network with parity alone (tutorial pending)
 - [X] Join an cross client Clique based ethereum network as an Full Node, together with Geth, Pantheon and other clients.
-- [X] connect to goerli and kottii network.
 
 # Upstream
 
@@ -33,4 +37,4 @@ If you want to make a request, please raise a issue.
 
 # Credits
 
-genesis JSON files for Goerli & Kotti are contributed by @5chdn.
+genesis JSON files for Goerli & Kotti are from @5chdn.
