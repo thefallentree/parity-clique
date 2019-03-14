@@ -25,7 +25,7 @@ $ target/release/parity <your options>
 pending tutorial
 
 # What you can use it for
-- [X] connect to rinkeby network by ```./parity --chian rinkeby```
+- [X] connect to rinkeby network by ```./parity --chain rinkeby```
 - [X] connect to goerli and kottii network.
 - [X] Run an local Clique based ethereum network with parity alone (tutorial pending)
 - [X] Join an cross client Clique based ethereum network as an Full Node, together with Geth, Pantheon and other clients.
