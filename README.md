@@ -43,8 +43,9 @@ $ target/debug/parity --chain goerli -l engine=trace,miner=trace --force-sealing
 
 # Upstream
 
-This patch will be updated in best effort to keep up with latest release from paritytech/partity-ethereum, but will not be upstreamed.
-If you want to make a request, please raise a issue.
+This patch will be updated in best effort to keep up with latest release from paritytech/partity-ethereum, but will not be upstreamed. (see https://github.com/goerli/parity-goerli/issues/44 for context).
+
+If you want to make a feature request, please raise a issue.
 
 # Credits
 
