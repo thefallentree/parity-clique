@@ -26,12 +26,12 @@ $ target/release/parity <your options>
 # How to run an local clique based ethereum network
 
 ```
-$ target/debug/parity --chain /tmp/1.json -l engine=trace,miner=trace --force-sealing --reseal-min-period=1000 --reseal-max-period=1000 --engine-signer=0x673c228d04def98e373a504339b47c7005164c39 --password /tmp/1
+$ target/debug/parity --chain /tmp/1.json -l engine=trace,miner=trace --force-sealing --reseal-min-period=1000 --reseal-max-period=1000 --engine-signer=<YOUR ADDRESS> --password /tmp/1
 ```
 
 # Seal on goerli
 ```
-$ target/debug/parity --chain goerli -l engine=trace,miner=trace --force-sealing --reseal-min-period=1000 --reseal-max-period=1000 --engine-signer=0x9a66a7d5162074a0899edf2d344f1f1fd6981869 --password /tmp/1
+$ target/debug/parity --chain goerli -l engine=trace,miner=trace --force-sealing --reseal-min-period=1000 --reseal-max-period=1000 --engine-signer=<YOUR ADDRESS> --password /tmp/1
 ```
 
 # What you can use it for
