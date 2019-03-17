@@ -2,7 +2,7 @@
 
 This is an out of tree EIP225 (Clique Proof-of authority consensus engine) implementation for Parity. This implementation
 is mostly authored by Yucong Sun, and there is some other changes pulled in from peoples noted in credits. It is also the software
-version in use in my active Goerli authority node (Yucong Sun Authority as seen in https://exploer.goerli.net).
+version in use in my active Goerli authority node (Yucong Sun Authority as seen in https://explorer.goerli.net/).
 
 # What is working:
 
