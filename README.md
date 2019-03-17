@@ -1,10 +1,10 @@
-# parity-clique
+# Parity Clique
 
 This is an out of tree EIP225 (Clique Proof-of authority consensus engine) implementation for Parity. This implementation
 is mostly authored by Yucong Sun, and there is some other changes pulled in from peoples noted in credits. It is also the software
 version in use in my active Goerli authority node.
 
-# What is included:
+# What is working:
 
 - [X] Sync & full block validation for clique based ethereum networks.
 - [X] Seal blocks and process votes according to EIP225 rules.
@@ -15,13 +15,18 @@ version in use in my active Goerli authority node.
 - [ ] JSON rpc for voting.
 
 # How to build and run
+
+Download patched source code zip file from https://github.com/thefallentree/parity-clique/releases , extract and ```cargo build --release --features=final``` 
+
+# How to generate patched source code zip file.
+
 ```
-$ git clone ....
+$ git clone -b <release tag> https://github.com/thefallentree/parity-clique 
+$ cd parity-clique
 $ git submodule init && git submodule update
 $ cd parity-ethereum
 $ patch < ../patch-v2.4.0.patch -p 1
 $ cargo build --release --features=final
-$ target/release/parity <your options>
 ```
 
 # How to run an local clique based ethereum network
