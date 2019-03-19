@@ -25,7 +25,7 @@ $ git clone -b <release tag> https://github.com/thefallentree/parity-clique
 $ cd parity-clique
 $ git submodule init && git submodule update
 $ cd parity-ethereum
-$ patch < ../patch-v2.4.0.patch -p 1
+$ patch < ../patch-v2.4.1.patch -p 1
 $ cargo build --release --features=final
 ```
 
